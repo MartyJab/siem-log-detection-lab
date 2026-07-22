@@ -1,4 +1,4 @@
-# Blue Team Home Lab
+# Webserver Log Siem Lab
 
 A Docker-based Blue Team lab for learning log analysis, traffic monitoring, and basic red team path scanning.
 
