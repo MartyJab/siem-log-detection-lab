@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  webserver:
+    build: ./webserver
+    container_name: webserver
+    ports:
+      - "8080:80"
+    volumes:
+      - ./scripts:/scripts
+    networks:
+      - blue-team-lab
+
+  client:
+    build: ./client
+    container_name: client
+    volumes:
+      - ./scripts:/scripts
+    networks:
+      - blue-team-lab
+
+  client2:
+    build: ./client2
+    container_name: client2
+    volumes:
+      - ./scripts:/scripts
+    networks:
+      - blue-team-lab
+  
+networks:
+  blue-team-lab:
