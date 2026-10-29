@@ -1,6 +1,6 @@
 # SIEM Log Detection Lab
 
-A Docker-based Blue Team lab for learning log analysis, traffic monitoring, and basic red team path scanning.
+A Docker-based Blue Team lab for learning log analysis, traffic monitoring, and basic path scanning.
 
 ## Features
 
